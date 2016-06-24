@@ -5,9 +5,9 @@ body{
 
 #babs{
     position: absolute;
-    right: 4;
+    right: 0;
     font-size: 0.8em;
-    color: #fff;
+    color: #72ACD5;
 }
 #babs a{
     color: #fff;
