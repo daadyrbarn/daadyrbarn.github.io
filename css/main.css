@@ -6,10 +6,10 @@ body{
 #babs{
     position: absolute;
     right: 0;
-    padding: 0px 10px 0px 10px;
     font-size: 0.8em;
     background-color: #72ACD5;
 }
 #babs a{
     color: #fff;
+    padding: 0px 10px 0px 10px;
 }
