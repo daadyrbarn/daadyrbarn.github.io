@@ -13,3 +13,11 @@ body{
     color: #fff;
     padding: 0px 10px 0px 10px;
 }
+
+#header{                        /* is not working as expected */
+    position: absolute;
+    top: 0px;
+    background-color: #277EBC;
+    height: 200px;
+    width: 100%;
+}
