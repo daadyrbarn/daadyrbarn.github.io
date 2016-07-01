@@ -19,8 +19,9 @@ h1, h2, h3, h4, h5, h6{
     padding: 0px 10px 0px 10px;
 }
 
-#header{                        /* is not working as expected */
-    position: absolute;
+header{                        /* is not working as expected */
+    display: block;
+    position: relative;
     top: 0px;
     background-color: #277EBC;
     height: 200px;
