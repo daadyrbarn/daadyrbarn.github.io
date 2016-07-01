@@ -1,29 +1,48 @@
-body{
+section, article, aside, footer, header, nav, hgroup, main {
+  display: block;
+}
+
+body {
     font-family: 'Lato', sans-serif;
     background-color: #303030;
     color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Lustria', serif;
 }
 
-#babs{
+#babs {
     position: absolute;
     right: 0;
     font-size: 0.8em;
     background-color: #72ACD5;
 }
-#babs a{
+#babs a {
     color: #fff;
     padding: 0px 10px 0px 10px;
 }
 
-header{                        /* is not working as expected */
-    display: block;
+.main-body {
+    width: 900px;
+}
+
+header {
     position: relative;
     top: 0px;
     background-color: #277EBC;
     height: 200px;
     width: 900px;
+    margin: 5px;
+    padding: 15px 15px 15px 15px;
+}
+
+main {
+    position: relative;
+    background-color: #E0EEF8;
+    color: #000;
+    width: 900px;
+    padding: 15px 15px 15px 15px;
+    margin-left: 5px;
+    margin-top: 15px;
 }
