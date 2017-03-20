@@ -1,19 +1,29 @@
-body{
-    font-family: 'Droid Sans', sans-serif;
-    background-color: #303030;
+section, article, aside, footer, header, nav, hgroup, main {
+  display: block;
 }
 
-#babs{
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #303030;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lustria', serif;
+}
+
+#babs {
     position: absolute;
     right: 0;
     font-size: 0.8em;
-    background-color: #72ACD5;
+    background-color: #277EBC;
 }
-#babs a{
+#babs a {
     color: #fff;
     padding: 0px 10px 0px 10px;
 }
 
+<<<<<<< HEAD
 /* is not working as expected */
 #page-header{
     position: absolute;
@@ -21,4 +31,28 @@ body{
     background-color: #277EBC;
     height: 80px;
     width: 900px;
+=======
+.main-body {
+    width: 900px;
+}
+
+header {
+    position: relative;
+    top: 0px;
+    background-color: #277EBC;
+    height: 200px;
+    width: 870px;
+    margin: 5px;
+    padding: 15px 15px 15px 15px;
+}
+
+main {
+    position: relative;
+    background-color: #E0EEF8;
+    color: #000;
+    width: 870px;
+    padding: 15px 15px 15px 15px;
+    margin-left: 5px;
+    margin-top: 15px;
+>>>>>>> origin/master
 }
