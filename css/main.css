@@ -54,7 +54,7 @@ main {
     margin-left: 0;
     padding-left: 0;
     display: inline;
-    } tabs ul li {
+    } #tabs ul li {
         margin-left: 0;
         margin-bottom: 0;
         padding: 2px 15px 5px;
