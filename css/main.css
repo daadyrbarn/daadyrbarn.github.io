@@ -12,17 +12,6 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Lustria', serif;
 }
 
-#babs {
-    position: absolute;
-    right: 0;
-    font-size: 0.8em;
-    background-color: #277EBC;
-}
-#babs a {
-    color: #fff;
-    padding: 0px 10px 0px 10px;
-}
-
 <<<<<<< HEAD
 /* is not working as expected */
 #page-header{
@@ -55,4 +44,8 @@ main {
     margin-left: 5px;
     margin-top: 15px;
 >>>>>>> origin/master
+}
+
+#h-contain {
+
 }
