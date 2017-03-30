@@ -26,6 +26,8 @@ body {
   line-height: 1.6;
 }
 
+
+
 blockquote {
   border-left: 0.3rem solid #d1d1d1;
   margin-left: 0;
@@ -601,11 +603,19 @@ img {
   float: right;
 }
 
-#navigation ul {
+#nav {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #606c76;
+} #nav ul {
     display: inline;
-} #navigation ul li {
+} #nav ul li {
     list-style: none;
     display: inline;
+    border-left: 1px solid #606c76;
+    padding: 3px 15px;
+} #nav ul li.first {
+    border-left: none;
 }
 
 /*# sourceMappingURL=milligram.css.map */
