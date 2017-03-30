@@ -601,4 +601,11 @@ img {
   float: right;
 }
 
+#navigation ul {
+    display: inline;
+} #navigation ul li {
+    list-style: none;
+    display: inline;
+}
+
 /*# sourceMappingURL=milligram.css.map */
