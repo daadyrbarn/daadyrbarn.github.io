@@ -616,7 +616,7 @@ img {
     padding: 3px 15px;
 } #nav ul li.first {
     border-left: none;
-} #nav ul li.here {
+} .here {
     text-decoration: underline;
 }
 
