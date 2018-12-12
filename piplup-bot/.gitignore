@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 config.json
 
 node_modules/
@@ -6,4 +7,14 @@ token.json
 
 # Google API
 credentials.json
+=======
+config.json
+
+node_modules/
+
+token.json
+
+# Google API
+credentials.json
+>>>>>>> 384e9f9e4c44162d01fca37a14af9ae1586b6716
 token.json
